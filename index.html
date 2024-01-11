@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css' )}}">
+        <title>TEST</title>
+    </head>
+    <body>
+        <h1>Cheese!</h1>
+        <p>This is a login page for the cheese fans!</p>
+        <div class="container">
+            <label for="uname"><b>Cheesername</b></label>
+            <input type="text" placeholder="Username" name="uname" required>
+            <label for="password"><b>Cheezword</b></label>
+            <input type="password" placeholder="Password" name="password" required>
+            <input type="checkbox" checked="checked" name="cheez" required> I confirm that I am a true cheese fan.
+            <button type="submit">Login to cheese!</button>
+        </div>
+    </body>
+</html>
